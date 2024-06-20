@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "text": "What is your favorite color?",
+      "type": "radio",
+      "options": ["Red", "Blue", "Green"],
+      "children": [
+        {
+          "id": 4,
+          "text": "Why do you like this color?",
+          "type": "select",
+          "options": ["It's calming", "It's vibrant", "It's unique"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Which hobbies do you enjoy?",
+      "type": "checkbox",
+      "options": ["Reading", "Traveling", "Cooking"],
+      "children": [
+        {
+          "id": 5,
+          "text": "How often do you engage in these hobbies?",
+          "type": "radio",
+          "options": ["Daily", "Weekly", "Monthly"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Select your country",
+      "type": "select",
+      "options": ["USA", "Canada", "Mexico"],
+      "children": [
+        {
+          "id": 6,
+          "text": "Why did you choose this country?",
+          "type": "text",
+          "options": []
+        }
+      ]
+    }
+  ]  
